@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>Dexter's Laboratory — Walter Bros Inc</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/TV Shows/TV Shows.Styling.css"/>
+	<link rel="stylesheet" type="text/css" href="../CSS/TV Shows/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../CSS/font-awesome.min.css" type="text/css" media="all">
+	<link rel="shortcut icon" href="../Images/Others/WB Logo.png" type="image/png">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	
+	
+
+  	
+</head>
+<body background="../Images/Others/Background.jpg">
+	<header>
+		<div class="logo-wrapper" style="margin-top: 10px;">
+			<a href="../../Index.html" target="_blank">
+				<center><img src="../Images/Others/logo.png"></center>
+			</a>
+		</div>
+		<nav>
+			<ul class="navigation">
+				<li class="menu-item ">
+					<a href="../../Index.html" target="_blank">
+						<img src="../Images/Tom _ Jerry/Tom _ Jerry.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Home</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="About Us.html" target="_blank">
+						<img src="../Images/Baby Looney Toones/Looney.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">About Us</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="TV Shows.html">
+						<img src="../Images/Others/TV.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">TV Shows</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="Merchandise.html" target="_blank">
+						<img src="../Images/Ben 10/Ben 10.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Merchandise</span>
+					</a>
+					
+				</li>
+				<li class="menu-item">
+					<a href="#" id="modal_trigger">
+						<img src="../Images/Dragon Ball Z/Goku.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Login or Sign Up</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="Contact Us.html" target="_blank">
+						<img src="../Images/Others/Telephone.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Contact Us</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+	
+	
+	
+	
+	<div id="popup_modal" class="modal-wrapper">
+		<i id="modal_terminator" class="fa fa-close" aria-hidden="true"></i>
+		<img src="../Images/Smurfs/1.png" class="bg-decoration left" alt="Image not available">
+		<img src="../Images/Smurfs/2.png" class="bg-decoration right" alt="Image not available">
+		<div class="popup-modal">
+			<ul class="pills-wrapper">
+				<li id="signin_pill_trigger" class="pill active signin-pill-trigger">Login</li>
+				<li id="signup_pill_trigger" class="pill signup-pill-trigger">Register</li>
+			</ul>
+			<div id="pillbox_signin" class="pillbox-signin">
+				<form action="#" class="login-form">
+					<h4 class="title text-center">Login to your account</h4>
+					<div class="form-group">
+						<input type="text" id="login_user__username" class="form-control" name="username" placeholder="Enter your username or email address" required>
+					</div>
+					<div class="form-group">
+						<input type="password" id="login_user__password" class="form-control" name="password" placeholder="Enter your password" required>
+					</div>
+					<div class="form-group">
+						<label for="login_user__remember" style="font-family: agency fb;font-weight: bolder;font-size:20px;">
+							<input type="checkbox" name="remember" id="login_user__remember" class="icheck" value="true"> Remember Me
+						</label>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">
+						<i class="fa fa-sign-in" aria-hidden="true"></i> Login
+					</button>
+					<button type="submit" class="btn btn-danger btn-block">
+						<i class="fa fa-foursquare" aria-hidden="true"></i> Forgot Password?
+					</button>
+				</form>
+			</div>
+			<div id="pillbox_signup" class="pillbox-signup" style="display: none;">
+					<form action="#" class="signup-form">
+						<h4 class="title text-center">Sign up for a new account</h4>
+						<div class="form-group">
+							<input type="email" id="signin_user__email" class="form-control" name="email" placeholder="Enter your email address" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__first_name" class="form-control" name="fname" placeholder="Enter your first name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__last_name" class="form-control" name="lname" placeholder="Enter your last name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__username" class="form-control" name="username" placeholder="Enter a username for your account" required>
+						</div>
+						<div class="form-group">
+							<input type="password" id="signin_user__password" class="form-control" name="password" placeholder="Enter a password for your account" required>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">
+							<i class="fa fa-user-plus" aria-hidden="true"></i> Register
+						</button>
+					</form>
+			</div>
+		</div>
+	</div>
+		
+		
+	
+
+
+<center><img src="../Images/Others/TV Shows.PNG" width="50%" height="auto"></center>
+	<br><br>
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 1.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2 >Dexter's Laboratory - S01 E01 - Deedeemensional</h2>
+
+			<p style="font-size: 18px;font-weight: bolder;">In This Episode Dexter sends Dee Dee back in time to warn his past self about the consequences (Deedeemensional).</p>
+
+			<a href="https://www.dailymotion.com/video/x52a27y" target="_blank"><button class="link-to-episode"  style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div>
+	</section> 
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 2.png"</li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory S01 E02 - The Big Sister</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode DEE DEE grows into a giant and makes the city her dollhouse (Big Sister).</p>
+
+			<a href="https://www.dailymotion.com/video/x6aa73g" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section> 
+	
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 3.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Lab - S01 E03 - Dexter's Rival</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Mandark forces Dexter to shut down his lab so that Mandark's lab can gain more power (Dexter's Rival).(Mandark, a new student at Dexter's school)</p>
+
+			<a href="https://www.dailymotion.com/video/x54lvjt" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 4.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory S01 E04 - Double Trouble - Barbequor - Changes</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dee Dee enter Dexter's lab and wreak havoc (Double Trouble).</p>
+
+			<a href="https://www.dailymotion.com/video/x6l3akt" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 5.png"s></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E05 - Jurassic Pooch</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dexter uses his dog's genetic code to fill in the gaps,To clone a dinosaur (Jurassic Pooch).</p>
+
+			<a href="https://www.dailymotion.com/video/x56gfaw" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 6.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E06 - Dexter's Assistant</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this episode Dexter performs a brain transplant on Dee Dee to make her smart enough to fulfill the role of assistant (Dexter's Assistant).</p>
+
+			<a href="https://www.dailymotion.com/video/x6ea6zt" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 7.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E07 - Star Spangled Sidekicks</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dexter and Dee Dee enter tryouts to become Major Glory's sidekick.To become Hero ().</p>
+
+			<a href="https://www.dailymotion.com/video/x6enm1y" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 8.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E08 - Simion | BabySitter Blues </h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dexter accelerates his age by ten years to win the heart of babysitter Lisa (Kath Soucie) (BabySitting).</p>
+
+			<a href="https://www.dailymotion.com/video/x6enod8" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 9.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E09 - Doll House Drama</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dexter becomes an unwilling character in Dee Dee's doll story, but he believes the story to be real (Doll House Drama).</p>
+
+			<a href="https://www.dailymotion.com/video/x6ezl13" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Dex Laboratory/Dex E 10.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Dexter's Laboratory - S01 E10 - Way of the Dee Dee</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In This Episode Dee Dee teaches Dexter how to live life her way instead of being lonely and purely focused on science (Way of the Dee Dee).</p>
+
+			<a href="https://www.dailymotion.com/video/x6ezmbx" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, purple, lightpink, purple);">Link To Episode</button></a>					
+		</div> 
+	</section><br><Br><br> 
+	
+	
+	
+
+<div class="center">
+  <div class="pagination">
+  <a href="TV Shows Pg 6.html" target="_blank">&laquo;</a>
+  <a href="TV Shows Pg 1.html" target="_blank">1</a>
+  <a href="TV Shows Pg 2.html" target="_blank">2</a>
+  <a href="TV Shows Pg 3.html" target="_blank">3</a>
+  <a href="TV Shows Pg 4.html" target="_blank">4</a>
+  <a href="TV Shows Pg 5.html">5</a>
+  <a href="TV Shows Pg 6.html" target="_blank">6</a>
+  <a href="TV Shows Pg 7.html" target="_blank">7</a>
+  <a href="TV Shows Pg 8.html" target="_blank">8</a>
+  <a href="TV Shows Pg 9.html" target="_blank">9</a>
+  <a href="TV Shows Pg 10.html" target="_blank">10</a>
+  <a href="TV Shows Pg 11.html" target="_blank">11</a>
+  <a href="TV Shows Pg 12.html" target="_blank">12</a>
+  <a href="TV Shows Pg 4.html" target="_blank">&raquo;</a>
+	  
+	  
+	  
+  </div>
+</div><br><Br><Br>
+
+	
+	
+<div class="footer-wrapper-1">
+  <div class="top-img"></div>
+  <div class="container-fluid">
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://pk.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.skype.com/en/" target="_blank"><i class="fa fa-skype"></i></a></li>
+        <li><a href="https://www.wechat.com/en" target="_blank"><i class="fa fa-wechat"></i></a></li>
+        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-mid-part">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-one">
+            <div class="footer-heading"><h2>Contact Us</h2></div>
+          <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+            <div class="footer-contact-text">
+              <p> Address:4000 Warner Blvd, Burbank, US (HQ)</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="tel:+923343463116">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-fax"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="fax:+923343463116">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="mailto:shaheer.aptechite@gmail.com">Jane.doe@walterbros.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+            <div class="footer-contact-text">
+               <p><a href="Index.html" target="_blank">www.WalterBros.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Quick Link</h2></div>
+            <div class="footer-link">
+              <ul>
+                <li><a href="../../Index.html" target="_blank">Home</a></li>
+                 <li><a href="About Us.html" target="_blank">About Us</a></li>
+                  <li><a href="TV Shows Pg 1.html" target="_blank">TV Shows</a></li>
+                   <li><a href="Merchandise.html" target="_blank">Merchandise</a></li>
+                    <li><a href="#">Login or Sign Up</a></li>
+                     <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Our Shows</h2></div>
+             <div class="footer-link">
+              <ul>
+                <li><a href="TV Shows Pg 1.html" target="_blank">Tom & Jerry</a></li>
+                 <li><a href="TV Shows Pg 2.html" target="_blank">Power Puff Girls</a></li>
+                  <li><a href="TV Shows Pg 3.html" target="_blank">Mr.Bean</a></li>
+                   <li><a href="TV Shows Pg 4.html" target="_blank">Baby Looney Toones</a></li>
+                    <li><a href="TV Shows Pg 5.html">Dexter's Laboratory</a></li>
+                     <li><a href="TV Shows Pg 6.html" target="_blank">Dragon Ball Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-three">
+            <div class="footer-heading"><h2>Get in touch</h2></div>
+             <div class="footer-form">
+               <form method="post" action="#">
+                 <div class="footer-form-box">
+                   <input type="text" class="footer-form-style" placeholder="Name" required>
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="email" class="footer-form-style" placeholder="Email" required>
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="number" class="footer-form-style" placeholder="Phone Number" required>
+                 </div>
+                 <div class="footer-form-box">
+                  <a href="mailto:shaheer.aptechite@gmail.com"><input type="submit" class="footer-form-submit-style" value="SUBMIT"></a>
+                 </div>
+               </form>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="footer-bottom">
+   <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12">
+       <p style="font-size: 25px;font-weight: bolder;font-family: agency fb;">Copyright &copy; 2019 Walter Brothers Inc. 2019</p>
+     </div>
+   </div>
+ </div>
+
+
+  </div>
+</div>
+	
+
+
+	
+<script src="../JS/TV Shows/Jquery-2.1.1.js"></script>
+<script src="../JS/TV Shows/bootstrap.min.js"></script>
+<script src="../JS/TV Shows/Main.js"></script>
+<script src="../JS/TV Shows/Modernizer.js"></script>
+
+</body>
+</html>

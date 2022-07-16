@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>Pokemon — Walter Bros Inc</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/TV Shows/TV Shows.Styling.css"/>
+	<link rel="stylesheet" type="text/css" href="../CSS/TV Shows/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../CSS/font-awesome.min.css" type="text/css" media="all">
+	<link rel="shortcut icon" href="../Images/Others/WB Logo.png" type="image/png">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	
+	
+
+  	
+</head>
+<body background="../Images/Others/Background.jpg">
+	<header>
+		<div class="logo-wrapper" style="margin-top: 10px;">
+			<a href="../../Index.html" target="_blank">
+				<center><img src="../Images/Others/logo.png"></center>
+			</a>
+		</div>
+		<nav>
+			<ul class="navigation">
+				<li class="menu-item ">
+					<a href="../../Index.html" target="_blank">
+						<img src="../Images/Tom _ Jerry/Tom _ Jerry.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Home</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="About Us.html" target="_blank">
+						<img src="../Images/Baby Looney Toones/Looney.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">About Us</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="TV Shows Pg 1.html" target="_blank">
+						<img src="../Images/Others/TV.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">TV Shows</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="Merchandise.html" target="_blank">
+						<img src="../Images/Ben 10/Ben 10.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Merchandise</span>
+					</a>
+					
+				</li>
+				<li class="menu-item">
+					<a href="#" id="modal_trigger">
+						<img src="../Images/Dragon Ball Z/Goku.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Login or Sign Up</span>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="Contact Us.html" target="_blank">
+						<img src="../Images/Others/Telephone.png" class="item-icon" alt="Image not available" />
+						<span class="item-text">Contact Us</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+	
+	
+	
+	
+	<div id="popup_modal" class="modal-wrapper">
+		<i id="modal_terminator" class="fa fa-close" aria-hidden="true"></i>
+		<img src="../Images/Smurfs/1.png" class="bg-decoration left" alt="Image not available">
+		<img src="../Images/Smurfs/2.png" class="bg-decoration right" alt="Image not available">
+		<div class="popup-modal">
+			<ul class="pills-wrapper">
+				<li id="signin_pill_trigger" class="pill active signin-pill-trigger">Login</li>
+				<li id="signup_pill_trigger" class="pill signup-pill-trigger">Register</li>
+			</ul>
+			<div id="pillbox_signin" class="pillbox-signin">
+				<form action="#" class="login-form">
+					<h4 class="title text-center">Login to your account</h4>
+					<div class="form-group">
+						<input type="text" id="login_user__username" class="form-control" name="username" placeholder="Enter your username or email address" required>
+					</div>
+					<div class="form-group">
+						<input type="password" id="login_user__password" class="form-control" name="password" placeholder="Enter your password" required>
+					</div>
+					<div class="form-group">
+						<label for="login_user__remember" style="font-family: agency fb;font-weight: bolder;font-size:20px;">
+							<input type="checkbox" name="remember" id="login_user__remember" class="icheck" value="true"> Remember Me
+						</label>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">
+						<i class="fa fa-sign-in" aria-hidden="true"></i> Login
+					</button>
+					<button type="submit" class="btn btn-danger btn-block">
+						<i class="fa fa-foursquare" aria-hidden="true"></i> Forgot Password?
+					</button>
+				</form>
+			</div>
+			<div id="pillbox_signup" class="pillbox-signup" style="display: none;">
+					<form action="#" class="signup-form">
+						<h4 class="title text-center">Sign up for a new account</h4>
+						<div class="form-group">
+							<input type="email" id="signin_user__email" class="form-control" name="email" placeholder="Enter your email address" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__first_name" class="form-control" name="fname" placeholder="Enter your first name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__last_name" class="form-control" name="lname" placeholder="Enter your last name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" id="signin_user__username" class="form-control" name="username" placeholder="Enter a username for your account" required>
+						</div>
+						<div class="form-group">
+							<input type="password" id="signin_user__password" class="form-control" name="password" placeholder="Enter a password for your account" required>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">
+							<i class="fa fa-user-plus" aria-hidden="true"></i> Register
+						</button>
+					</form>
+			</div>
+		</div>
+	</div>
+		
+		
+	
+
+
+<center><img src="../Images/Others/TV Shows.PNG" width="50%" height="auto"></center>
+	<br><br>
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 1.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2 >Pokemon Sun and Moon E 1</h2>
+
+			<p style="font-size: 18px;font-weight: bolder;">This Episode begins as a vacation for our hero on Melemele Island in the Alola region turns into the promise of many, many exciting adventures to come ( Alola to New Adventure! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=wNJHjTA0yyk" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div>
+	</section> 
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 2.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 2</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash and Pikachu are adjusting to life in the Alola region—and it’s about to give them a powerful push in a new direction ( The Guardian’s Challenge! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=8pdO1sgbOUA" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section> 
+	
+	
+	
+	
+	
+	<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 3.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 3</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash’s journey in the Alola region is just getting under way, and our hero has a new partner to share it with ( Loading the Dex! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=rlMNM0aSbT0" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 4.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 4</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash is after his first Pokémon in the Alola region, and the adventure that ensues is typical Ash ( First Catch in Alola, Ketchum-Style! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=UvgtBwmDuHc" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 5.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 5</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash’s Pokémon class is off to the sea for some fishing, but Team Rocket has a completely different kind of fishing in mind ( Yo, Ho, Ho! Go, Popplio! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=n0Im1i9KQ7Q" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 6.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 6</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash’s first day off from Pokémon School was supposed to be a relaxing break, but things don’t go quite as expected ( A Shocking Grocery Run! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=KbYNaLTSKrs" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 7.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 7</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode A feisty Litten is determined to steal food from others, and Ash and Pikachu are determined to find out why ( That's Why the Litten Is a Scamp! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=aOeoZTcO7jg" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 8.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 8</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Lillie has a Pokémon Egg to care for until it hatches, but will fear get in her way? ( Lillie's Egg-Xhilarating Challenge! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=U47Ee03sEaY" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 9.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 9</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode Ash is determined to undergo the island challenge and replace his Z-Crystal, so Professor Kukui takes him to meet Hala, the kahuna of Melemele Island ( To Top a Totem! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=NuR6dhYSko4" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section>
+	
+	
+	
+	
+		<section class="cd-single-item">
+		<div class="cd-slider-wrapper">
+			<ul class="cd-slider">
+				<li class="selected"><img src="../Images/TV Shows/Pokemon/POKI E 10.png"></li>
+				
+			</ul> <!-- cd-slider -->
+
+			<ul class="cd-slider-navigation">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul> <!-- cd-slider-navigation -->
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-slider-wrapper -->
+
+		<div class="cd-item-info">
+			<h2>Pokemon Sun and Moon E 10</h2>
+
+			<p  style="font-size: 18px;font-weight: bolder;">In this Episode The Melemele Island grand trial is imminent, and Ash must square off against the power and wisdom of Kahuna Hala ( Trial and Tribulation! ).</p>
+
+			<a href="https://www.youtube.com/watch?v=vkVBLsxBrgU" target="_blank"><button class="link-to-episode" style="background:-webkit-linear-gradient(180deg, #2B92FF, yellow, #2B92FF, yellow);">Link To Episode</button></a>					
+		</div> 
+	</section><br><Br><br> 
+	
+	
+	
+
+<div class="center">
+  <div class="pagination">
+  <a href="TV Shows Pg 9.html" target="_blank">&laquo;</a>
+  <a href="TV Shows Pg 1.html" target="_blank">1</a>
+  <a href="TV Shows Pg 2.html" target="_blank">2</a>
+  <a href="TV Shows Pg 3.html" target="_blank">3</a>
+  <a href="TV Shows Pg 4.html" target="_blank">4</a>
+  <a href="TV Shows Pg 5.html" target="_blank">5</a>
+  <a href="TV Shows Pg 6.html" target="_blank">6</a>
+  <a href="TV Shows Pg 7.html" target="_blank">7</a>
+  <a href="TV Shows Pg 8.html">8</a>
+  <a href="TV Shows Pg 9.html" target="_blank">9</a>
+  <a href="TV Shows Pg 10.html" target="_blank">10</a>
+  <a href="TV Shows Pg 11.html" target="_blank">11</a>
+  <a href="TV Shows Pg 12.html" target="_blank">12</a>
+  <a href="TV Shows Pg 7.html" target="_blank">&raquo;</a>
+	  
+	  
+	  
+  </div>
+</div><br><Br><Br>
+
+	
+	
+<div class="footer-wrapper-1">
+  <div class="top-img"></div>
+  <div class="container-fluid">
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://pk.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.skype.com/en/" target="_blank"><i class="fa fa-skype"></i></a></li>
+        <li><a href="https://www.wechat.com/en" target="_blank"><i class="fa fa-wechat"></i></a></li>
+        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-mid-part">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-one">
+            <div class="footer-heading"><h2>Contact Us</h2></div>
+          <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+            <div class="footer-contact-text">
+              <p> Address:4000 Warner Blvd, Burbank, US (HQ)</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="tel:+923343463116">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-fax"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="fax:+923343463116">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="mailto:shaheer.aptechite@gmail.com">Jane.doe@walterbros.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+            <div class="footer-contact-text">
+               <p><a href="Index.html" target="_blank">www.WalterBros.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Quick Link</h2></div>
+            <div class="footer-link">
+              <ul>
+                <li><a href="../../Index.html" target="_blank">Home</a></li>
+                 <li><a href="About Us.html" target="_blank">About Us</a></li>
+                  <li><a href="TV Shows Pg 1.html" target="_blank">TV Shows</a></li>
+                   <li><a href="Merchandise.html" target="_blank">Merchandise</a></li>
+                    <li><a href="#">Login or Sign Up</a></li>
+                     <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-two">
+            <div class="footer-heading"><h2>Our Shows</h2></div>
+             <div class="footer-link">
+              <ul>
+                <li><a href="TV Shows Pg 1.html" target="_blank">Tom & Jerry</a></li>
+                 <li><a href="TV Shows Pg 2.html" target="_blank">Power Puff Girls</a></li>
+                  <li><a href="TV Shows Pg 3.html" target="_blank">Mr.Bean</a></li>
+                   <li><a href="TV Shows Pg 4.html" target="_blank">Baby Looney Toones</a></li>
+                    <li><a href="TV Shows Pg 5.html" target="_blank">Dexter's Laboratory</a></li>
+                     <li><a href="TV Shows Pg 6.html" target="_blank">Dragon Ball Z</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-three">
+            <div class="footer-heading"><h2>Get in touch</h2></div>
+             <div class="footer-form">
+               <form method="post" action="#">
+                 <div class="footer-form-box">
+                   <input type="text" class="footer-form-style" placeholder="Name" required>
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="email" class="footer-form-style" placeholder="Email" required>
+                 </div>
+                 <div class="footer-form-box">
+                   <input type="number" class="footer-form-style" placeholder="Phone Number" required>
+                 </div>
+                 <div class="footer-form-box">
+                  <a href="mailto:shaheer.aptechite@gmail.com"><input type="submit" class="footer-form-submit-style" value="SUBMIT"></a>
+                 </div>
+               </form>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="footer-bottom">
+   <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12">
+       <p style="font-size: 25px;font-weight: bolder;font-family: agency fb;">Copyright &copy; 2019 Walter Brothers Inc. 2019</p>
+     </div>
+   </div>
+ </div>
+
+
+  </div>
+</div>
+	
+
+	
+<script src="../JS/TV Shows/Jquery-2.1.1.js"></script>
+<script src="../JS/TV Shows/bootstrap.min.js"></script>
+<script src="../JS/TV Shows/Main.js"></script>
+<script src="../JS/TV Shows/Modernizer.js"></script>
+
+</body>
+</html>
